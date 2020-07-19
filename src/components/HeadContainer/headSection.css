@@ -1,0 +1,29 @@
+.head-section {
+	display: flex;
+	flex-direction: row;
+	height: 55px;
+	justify-content: space-between;
+	align-items: center;
+	border-left: 1px solid #444;
+	border-right: 1px solid #444;
+}
+
+.head-section .reset, .head-section .flag-count, .head-section .timer {
+	width: 55px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head-section .reset {
+	font-size: 25px;
+}
+
+.sad {
+	content: url('https://api.iconify.design/clarity:sad-face-line.svg?height=16');
+}
+
+.happy {
+	content: url('https://api.iconify.design/cil:happy.svg?height=16');
+}
